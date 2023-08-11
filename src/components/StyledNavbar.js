@@ -15,8 +15,8 @@ function StyledNavbar() {
                     paddingLeft: 10,
                     paddingRight: 10
                 }
-            }}>About</NavLink>
-            <NavLink to='/portfolio' style={({isActive, isPending}) =>{
+            }}>About The Store</NavLink>
+            <NavLink to='/receipts' style={({isActive, isPending}) =>{
                 return{
                     fontWeight: isActive ? "bold" : "",
                     color: isActive ? "teal" : "white",
@@ -26,29 +26,7 @@ function StyledNavbar() {
                     paddingLeft: 10,
                     paddingRight: 10
                 }
-            }}>Portfolio</NavLink>
-            <NavLink to='/contact' style={({isActive, isPending})=>{
-                return{
-                    fontWeight: isActive ? "bold" : "",
-                    color: isActive ? "teal" : "white",
-                    textDecoration: 'none',
-                    paddingTop: 5,
-                    paddingBottom: 5,
-                    paddingLeft: 10,
-                    paddingRight: 10
-                }
-            }}>Contact</NavLink>
-            <NavLink to='/resume' style={({isActive, isPending})=>{
-                return{
-                    fontWeight: isActive ? "bold" : "",
-                    color: isActive ? "teal" : "white",
-                    textDecoration: 'none',
-                    paddingTop: 5,
-                    paddingBottom: 5,
-                    paddingLeft: 10,
-                    paddingRight: 10
-                }
-            }}>Resume</NavLink>
+            }}>Receipts</NavLink>
         </nav>
     )
 };

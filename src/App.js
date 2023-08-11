@@ -6,10 +6,8 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 
 import Header from "./components/Header";
-import AboutMe from "./components/AboutMe";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
-import Resume from "./components/Resume";
+import AboutTheStore from "./components/AboutTheStore";
+import Receipts from "./components/Receipts";
 import Footer from "./components/Footer";
 
 const darkTheme = createTheme({
@@ -28,19 +26,11 @@ function App() {
           <Routes>
             <Route
               path="/"
-              element={<AboutMe />}
+              element={<AboutTheStore />}
             />
             <Route
-              path="/portfolio"
-              element={<Portfolio />}
-            />
-            <Route
-              path="/contact"
-              element={<Contact />}
-            />
-            <Route
-              path="/resume"
-              element={<Resume />}
+              path="/receipts"
+              element={<Receipts />}
             />
           </Routes>
           <Footer />

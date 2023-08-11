@@ -11,7 +11,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInBrowserIcon from '@mui/icons-material/OpenInBrowser';
 import IconButton from '@mui/material/IconButton';
 
-function Portfolio() {
+function Receipts() {
 
     const projects = [
         {
@@ -121,4 +121,4 @@ function Portfolio() {
     )
 };
 
-export default Portfolio;
+export default Receipts;
