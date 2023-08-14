@@ -9,8 +9,7 @@ The purpose of this project is to demonstrate my ability in the React developmen
 ## How to run...
 
 Required Technologies...
-Node/NPM
-Google Chrome
+Node/NPM, Google Chrome
 
 1 - Clone this repository to your local computer.
 
