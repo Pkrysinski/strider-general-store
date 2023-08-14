@@ -18,7 +18,7 @@ function Customer() {
 
     return (
         <div>
-            <h1>Customer Name: {customerName}</h1>
+            <h2>Customer Name: {customerName}</h2>
             <Box sx={{ width: '100%' }}>
                 <Stack spacing={6} alignItems="center">
                     {customerReceipts.map(receipt => {

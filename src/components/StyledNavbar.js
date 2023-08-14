@@ -16,7 +16,7 @@ function StyledNavbar() {
                     paddingRight: 10
                 }
             }}>Home</NavLink>
-            <NavLink to='/Customer' style={({isActive, isPending})=>{
+            <NavLink to='/AboutStrider' style={({isActive, isPending})=>{
                 return{
                     fontWeight: isActive ? "bold" : "",
                     color: isActive ? "teal" : "white",
@@ -26,7 +26,7 @@ function StyledNavbar() {
                     paddingLeft: 10,
                     paddingRight: 10
                 }
-            }}>Customers</NavLink>            
+            }}>About Strider</NavLink>            
         </nav>
     )
 };

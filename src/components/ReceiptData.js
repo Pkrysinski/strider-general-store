@@ -43,29 +43,50 @@ function ReceiptData() {
                 </Table>
             </TableContainer>
 
-            <p>Please click on any customer name below to view their order history...</p>
+            <div> 
+                <p>Please click on any customer name below to view their order history...</p>
+                {/* Future State: Map these based on the receipts JSON, not hard-code */}
+                <ul style={{ listStyleType:"none" }}>
+                    <li key={1}>
+                        <Link to={'customer/1'}>Elizabeth</Link>
+                    </li>
+                    <li key={2}>
+                        <Link to={'customer/2'}>Alexander</Link>
+                    </li>          
+                    <li key={3}>
+                        <Link to={'customer/3'}>Emira</Link>
+                    </li>              
+                    <li key={4}>
+                        <Link to={'customer/4'}>LJ</Link>
+                    </li>     
+                    <li key={5}>
+                        <Link to={'customer/5'}>Armand</Link>
+                    </li>   
+                </ul>
 
-            {/* TODO: Hoping to get this part appropriately uniquely sorted out by submissing, but hard-coding for now */}
-            {/* {receipts.map(({ CustomerId, CustomerName }) => (
-                <li key={CustomerId}>
-                <Link to={`customer/${CustomerId}`}>{CustomerName}</Link>
-                </li>
-            ))} */}
-            <li key={1}>
-                <Link to={'customer/1'}>Elizabeth</Link>
-            </li>
-            <li key={2}>
-                <Link to={'customer/2'}>Alexander</Link>
-            </li>          
-            <li key={3}>
-                <Link to={'customer/3'}>Emira</Link>
-            </li>              
-            <li key={4}>
-                <Link to={'customer/4'}>LJ</Link>
-            </li>     
-            <li key={5}>
-                <Link to={'customer/5'}>Armand</Link>
-            </li>   
+                <p>Please click on any item below to see how many times it's been ordered...</p>
+                {/* Future State: Map these based on the receipts JSON, not hard-code */}
+                <ul style={{ listStyleType:"none", paddingBottom:"100px" }}>
+                    <li key={6}>
+                        <Link to={'item/Candle'}>Candle</Link>
+                    </li>
+                    <li key={7}>
+                        <Link to={'item/Book'}>Book</Link>
+                    </li>          
+                    <li key={8}>
+                        <Link to={'item/Pen'}>Pen</Link>
+                    </li>              
+                    <li key={9}>
+                        <Link to={'item/Paper'}>Paper</Link>
+                    </li>     
+                    <li key={10}>
+                        <Link to={'item/Jar'}>Jar</Link>
+                    </li>   
+                    <li key={11}>
+                        <Link to={'item/Movie'}>Movie</Link>
+                    </li>   
+                </ul>
+            </div>
         </div>
     );
 }
