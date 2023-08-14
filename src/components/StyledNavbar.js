@@ -15,7 +15,18 @@ function StyledNavbar() {
                     paddingLeft: 10,
                     paddingRight: 10
                 }
-            }}>About The Store</NavLink>
+            }}>Home</NavLink>
+            <NavLink to='/Customer' style={({isActive, isPending})=>{
+                return{
+                    fontWeight: isActive ? "bold" : "",
+                    color: isActive ? "teal" : "white",
+                    textDecoration: 'none',
+                    paddingTop: 5,
+                    paddingBottom: 5,
+                    paddingLeft: 10,
+                    paddingRight: 10
+                }
+            }}>Customers</NavLink>            
         </nav>
     )
 };

@@ -29,7 +29,7 @@ function App() {
               element={<AboutTheStore />}
             />
             <Route
-              path="/customer/:name"
+              path="/customer/:id"
               element={<Customer />}
               />
           </Routes>
