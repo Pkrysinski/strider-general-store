@@ -10,9 +10,9 @@ function GetReceiptData() {
                 method: 'GET',
                 headers : {
                     'Content-Type': 'application/json',
-                    'Accept': 'application/json'
-                },
-                mode: 'no-cors'
+                    'Accept': 'application/json',
+                    'Access-Control-Allow-Origin': '*'
+                }
             };
 
             let requestUrl = 'https://doc.strider.tech/content/receipts.json';
