@@ -12,6 +12,7 @@ function GetReceiptData() {
                     'Content-Type': 'application/json',
                     'Accept': 'application/json'
                 },
+                mode: 'no-cors'
             };
 
             let requestUrl = 'https://doc.strider.tech/content/receipts.json';
