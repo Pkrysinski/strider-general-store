@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useState } from "react";
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
@@ -44,7 +44,6 @@ function ReceiptData() {
             <TableHead>
             <TableRow>
                 <TableCell>Order ID</TableCell>
-                <TableCell align="right">Customer ID</TableCell>
                 <TableCell align="right">Customer Name</TableCell>
                 <TableCell align="right">Total</TableCell>
                 <TableCell align="right">Date</TableCell>
@@ -59,8 +58,7 @@ function ReceiptData() {
                 <TableCell component="th" scope="receipt">
                     {receipt.OrderId}
                 </TableCell>
-                <TableCell align="right">{receipt.CustomerId}</TableCell>
-                <TableCell align="right">{receipt.CustomerName}</TableCell>
+                <TableCell align="right" onClick={handleCellClick}>{receipt.CustomerName}</TableCell>
                 <TableCell align="right">{receipt.Total}</TableCell>
                 <TableCell align="right">{receipt.Date}</TableCell>
                 </TableRow>
@@ -70,5 +68,11 @@ function ReceiptData() {
         </TableContainer>
     );
 }
+
+const handleCellClick = (e) => {
+    console.log(e.target.textContent);
+
+}
+
 
 export default ReceiptData;

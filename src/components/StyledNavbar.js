@@ -16,17 +16,6 @@ function StyledNavbar() {
                     paddingRight: 10
                 }
             }}>About The Store</NavLink>
-            <NavLink to='/receipts' style={({isActive, isPending}) =>{
-                return{
-                    fontWeight: isActive ? "bold" : "",
-                    color: isActive ? "teal" : "white",
-                    textDecoration: 'none',
-                    paddingTop: 5,
-                    paddingBottom: 5,
-                    paddingLeft: 10,
-                    paddingRight: 10
-                }
-            }}>Receipts</NavLink>
         </nav>
     )
 };

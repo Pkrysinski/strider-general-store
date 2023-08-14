@@ -7,7 +7,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 
 import Header from "./components/Header";
 import AboutTheStore from "./components/AboutTheStore";
-import Receipts from "./components/Receipts";
+import Customer from "./components/Customer";
 import Footer from "./components/Footer";
 
 const darkTheme = createTheme({
@@ -29,9 +29,9 @@ function App() {
               element={<AboutTheStore />}
             />
             <Route
-              path="/receipts"
-              element={<Receipts />}
-            />
+              path="/customer/:name"
+              element={<Customer />}
+              />
           </Routes>
           <Footer />
         </Container>
