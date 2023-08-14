@@ -8,6 +8,7 @@ const buttonLinks = {
     GitHub: "https://github.com/Pkrysinski/strider-general-store"
 }
 
+// This AboutStrider component houses some basic links to both the reposotiry where the project is maintained as well as a link to the Strider Techonologies website.
 function AboutStrider() {
     return (
         <div>

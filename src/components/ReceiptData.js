@@ -9,6 +9,8 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import GetReceiptData from "../api/GetReceiptData";
 
+// Here's our home page with a nicely formatted Material UI table to display high-level data about the receipts.json file retrieved via the fetch request across the networks.
+// Belwo the table also fulfills the requirement criteria for links to customers and links to items on the homepage.
 function ReceiptData() {
 
     const receipts = GetReceiptData();

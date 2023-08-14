@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from "react-router-dom";
 import '../styles/Header.css';
 
+// Basic nav bar which directs users to the home page as well as an About Strider page.
 function StyledNavbar() {
     return(
         <nav className='navbar'>

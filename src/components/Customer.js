@@ -15,7 +15,7 @@ function Customer() {
     const customerReceipts = receipts.filter(({CustomerId}) => id.includes(CustomerId));
     const customerName = [...new Set(customerReceipts.map(x => x.CustomerName))];
 
-
+    // Here we're utilizing Material UI cards to display "receipts" for all of the Customer's in the store.
     return (
         <div>
             <h2>Customer Name: {customerName}</h2>

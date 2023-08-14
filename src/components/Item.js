@@ -2,6 +2,7 @@ import * as React from 'react';
 import { useParams } from "react-router-dom";
 import GetReceiptData from "../api/GetReceiptData";
 
+// This is the rendered component when a single item from the home page is selected to view the amount of times it's been ordered across customers.
 function Item() {
 
     const { item } = useParams();
