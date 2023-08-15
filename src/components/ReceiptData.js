@@ -64,6 +64,9 @@ function ReceiptData() {
                     <li key={5}>
                         <Link to={'customer/5'}>Armand</Link>
                     </li>   
+                    <li key={6}>
+                        <Link to={'customer/6'}>Elizabeth</Link>
+                    </li>                       
                 </ul>
 
                 <p>Please click on any item below to see how many times it's been ordered...</p>
