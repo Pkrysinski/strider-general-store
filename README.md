@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Purpose...
 
-The purpose of this project is to demonstrate my ability in the React development space and fulfull the requirements set forth by Strider Technologies.  This app has been developed with an Express back-end and a React UI to showcase data fetched from the provided API (https://doc.strider.tech/content/receipts.json).  The app has a homepage which displays some high-level data about the receipts retrieved from the API in a Material UI table, as well as links below the table which takes the user to more information about the customers in the table as well as items purchased.
+The purpose of this project is to demonstrate my ability in the React development space and fulfull the requirements set forth by Strider Technologies.  This app has been developed with an Express back-end and a React UI to showcase data fetched from the provided API (https://doc.strider.tech/content/receipts.json).  The app has a homepage which displays some high-level data about the receipts retrieved from the API in a Material UI table, as well as links below the table which takes the user to more information about the customers in the table as well as items purchased.  There is also a basic navigation bar in the upper-right of the app which can redirect users to the home page, as well as to an "About Strider" page which takes the user to some external links to both www.striderintel.com as well as the project repo.  The app has been built to have a responsive interface whether the user is on mobile or desktop.
 
 ## How to run...
 
