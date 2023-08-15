@@ -21,7 +21,7 @@ Node/NPM, Google Chrome
 
 ## Personal Statement
 
-I hope this app showcases my skillset as a React developer so far!  I had the most trouble with the fetch request and a cors issue upon retrieving the data from the provided URL.  I have a workaround that works well in Chrome, but seems to have issues with Microsoft Edge, but I'm eager to learn more about why it's happening and the cause behind it.  Regardless, this was excellent practice and a great learning opportunity for me, so I can't thank Strider enough for allowing me to partake in it!  Can't wait to hear what everyone thinks.
+I hope this app showcases my skillset as a React developer so far!  I had the most trouble with the fetch request and a cors issue upon retrieving the data from the provided URL.  I decided to add a dedicated back end server with CORS configuration to get around the issue, and now it works across all browsers.
 
 ## Available Scripts
 
