@@ -8,16 +8,22 @@ The purpose of this project is to demonstrate my ability in the React developmen
 
 ## How to run...
 
-Required Technologies...
-Node/NPM, Google Chrome
+Required technologies:
+Node/NPM, any web browser
 
+Steps to run:
 1 - Clone this repository to your local computer.
 
 2 - Once successfully cloned, open up Git Bash or any other comand prompt of your choosing.
 
-3 - Navigate to the root of the strider-general-store project (by using the "cd" comand to get to the location).
+3 - Start the backend server...
+3a - Navigate to the root of the strider-general-store project, then go into the /server folder (by using the "cd" comand to get to the location).
+3b - Run command "npm start
+3c - Confirm that the server is running by seeing "Server is running on port 4000" in the terminal
 
-4 - Run command "npm start" and launch the app in Google Chrome.  Navigate around, try to break it, and most of all - have fun!
+4 - Start the frontend server...
+4a - Navigate to the root of the strider-general-store project
+4b - Run command "npm start" and launch the app in Google Chrome.  Navigate around, try to break it, and most of all - have fun!
 
 ## Personal Statement
 
