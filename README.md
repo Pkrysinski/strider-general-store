@@ -10,7 +10,7 @@ The purpose of this project is to demonstrate my ability in the React developmen
 
 Required technologies:
 
-Node/NPM, any web browser
+Node/NPM, any web browser.
 
 Steps to run:
 
@@ -22,13 +22,13 @@ Steps to run:
 
 3a - Navigate to the root of the strider-general-store project, then go into the /server folder (by using the "cd" comand to get to the location).
 
-3b - Run command "npm start
+3b - Run command "npm start.
 
-3c - Confirm that the server is running by seeing "Server is running on port 4000" in the terminal
+3c - Confirm that the server is running by seeing "Server is running on port 4000" in the terminal.
 
 4 - Start the frontend server...
 
-4a - Navigate to the root of the strider-general-store project
+4a - In a separate terminal, navigate to the root of the strider-general-store project.
 
 4b - Run command "npm start" and launch the app in Google Chrome.  Navigate around, try to break it, and most of all - have fun!
 
